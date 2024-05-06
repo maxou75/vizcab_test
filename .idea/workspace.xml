@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fddb6c4-8527-4e60-90b7-00b0fb3572fa" name="Changes" comment="" />
+    <list default="true" id="9fddb6c4-8527-4e60-90b7-00b0fb3572fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,12 +46,14 @@
   "keyToString": {
     "Django Server.vizcab_test.executor": "Run",
     "Django tests.Test: challenge.tests.Level1Test.executor": "Run",
+    "Django tests.Test: challenge.tests.Level2Test.executor": "Run",
     "Django tests.Test: challenge.tests.TotalSurfaceTest.executor": "Run",
     "Django tests.Test: challenge.tests.TotalSurfaceTests.executor": "Run",
     "Django tests.Test: challenge.tests.level1Test.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/Maxime/Projects/vizcab_test/compute",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/Maxime/Projects/vizcab_test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,10 +65,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/compute" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: challenge.tests.Level1Test">
+  <component name="RunManager" selected="Django tests.Test: challenge.tests.Level2Test">
     <configuration name="Test: challenge.tests.Level1Test" type="DjangoTestsConfigurationType" temporary="true">
       <module name="vizcab_test" />
       <option name="ENV_FILES" value="" />
@@ -79,6 +88,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="TARGET" value="challenge.tests.Level1Test" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: challenge.tests.Level2Test" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="vizcab_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="challenge.tests.Level2Test" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -175,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: challenge.tests.Level2Test" />
         <item itemvalue="Django tests.Test: challenge.tests.Level1Test" />
         <item itemvalue="Django tests.Test: challenge.tests.TotalSurfaceTest" />
         <item itemvalue="Django tests.Test: challenge.tests.TotalSurfaceTests" />
@@ -207,10 +238,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/vizcab_test$Test__challenge_tests_Level1Test.coverage" NAME="Test: challenge.tests.Level1Test Coverage Results" MODIFIED="1715017218560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/vizcab_test$Test__challenge_tests_Level1Test.coverage" NAME="Test: challenge.tests.Level1Test Coverage Results" MODIFIED="1715024579297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/vizcab_test$Test__challenge_tests_TotalSurfaceTest.coverage" NAME="Test: challenge.tests.TotalSurfaceTest Coverage Results" MODIFIED="1715017087878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/vizcab_test$Test__challenge_tests_level1Test.coverage" NAME="Test: challenge.tests.level1Test Coverage Results" MODIFIED="1715016361371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/vizcab_test$Test__challenge_tests_TotalSurfaceTests.coverage" NAME="Test: challenge.tests.TotalSurfaceTests Coverage Results" MODIFIED="1715016733904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/vizcab_test$Test__challenge_tests_Level2Test.coverage" NAME="Test: challenge.tests.Level2Test Coverage Results" MODIFIED="1715024632441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
