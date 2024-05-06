@@ -2,7 +2,10 @@
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="PY-241.15989.155">
     <data-source name="db" uuid="961682cf-3e75-4d5d-bfca-e251c006cc29">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <auth-provider>no-auth</auth-provider>
       <schema-mapping />
     </data-source>
